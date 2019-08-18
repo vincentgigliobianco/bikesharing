@@ -2,7 +2,7 @@ shinyServer(function(input, output, session) {
   data <- reactive({
     fun_filter_df(df,input$selected_period[1],input$selected_period[2])
   }) 
-
+  
   # output$myvariablesdef <- renderPrint({
   #   variables_definition
   # })

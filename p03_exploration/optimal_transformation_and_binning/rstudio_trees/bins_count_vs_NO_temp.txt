@@ -1,0 +1,8 @@
+Les bins créés sont:
+
+BIN n°1: <= 12 °
+BIN n°2: [13;22]
+BIN n°3: [29;29]
+BIN n°4: >= 30
+
+

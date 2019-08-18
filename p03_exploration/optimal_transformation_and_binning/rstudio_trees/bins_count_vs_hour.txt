@@ -1,0 +1,16 @@
+Les bins créés sont:
+
+BIN  n°1: hour <= 7
+BIN n°2: hour >= 22
+hour <= 21 et hour < 17 et hour >= 9.5 cad hour <= 21 et hour <= 16 et hour >= 10
+cad : 
+BIN n°3: 10 =< hour <= 16
+hour <= 21 et hour <= 16 et hour <= 9  et hour < 8.5 cad hour == 8
+BIN n°4: hour == 8
+hour <= 21 et hour <= 16 et hour <= 9  et hour >= 8.5 cad hour == 9
+BIN n°4: hour == 9
+hour <= 21 et hour >= 17 et hour >= 20 cad : hour >= 17
+BIN n°5 : 20 =< hour <= 21
+
+hour <= 21 et hour >= 17 et hour <= 19 et hour <= 17 cad : hour == 17
+BIN n°6: hour == 17

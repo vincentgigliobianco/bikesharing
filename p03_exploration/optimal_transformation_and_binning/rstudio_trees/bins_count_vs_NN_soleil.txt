@@ -1,0 +1,9 @@
+Les bins créés sont:
+
+
+
+BIN n°1: NN_soleil < −7.6 et NN_soleil < −22
+BIN n°2: NN_soleil < −7.6 et NN_soleil >= −22
+BIN n°3: NN_soleil >= −7.6 
+
+

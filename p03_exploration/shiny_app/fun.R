@@ -39,6 +39,7 @@ fun_filter_df = function(df,date_debut,date_fin){
 
 # THE MEGA TIME SERIES
 build_the_time_series = function(){
+
   mydf = df[,c("datetime","count","S_rateregis")]
   mydf = mydf[order(mydf$datetime,decreasing = FALSE),]
   mydf$datetime = mydf$datetime + hours(5)
