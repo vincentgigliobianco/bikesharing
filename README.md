@@ -2,8 +2,8 @@
 
 Les différentes étapes de notre participation au Kaggle Bike Sharing : https://www.kaggle.com/c/bike-sharing-demand/. Il s'agit de prédire le nombre de vélos loués dans la ville Washington, DC à différentes heures de la journée sur une période allant du 1er janvier 2011 au 31 Décembre 2012. Les variables à disposition permettant de modéliser la variable d'intérêt sont l'heure, le jour de la semaine, le mois de l'année, la température, etc.
 
-# Résultats, top 10%
-Finalement, notre modèle XGBoost nous a permis d'atteindre une RMLSE de 0.408, ce qui nous classe dans le top 10% du Public LeaderBoard. En plus de ce bon résultat, nous nous sommes intéressés à l'interprétation du modèle grâce à la librairie `shap`. Ci-dessous le graphique résumant l'importance des variables. On peut remarquer que parmi les variables les plus importantes, se trouve l'élévation du soleil, variable issue de notre propre features engineering.
+# Résultats, top 4%
+Finalement, notre modèle XGBoost nous a permis d'atteindre une RMLSE de 0.38334, ce qui nous classe dans le top 4% du Public LeaderBoard. En plus de ce bon résultat, nous nous sommes intéressés à l'interprétation du modèle grâce à la librairie `shap`. Ci-dessous le graphique résumant l'importance des variables. On peut remarquer que parmi les variables les plus importantes, se trouve l'élévation du soleil, variable issue de notre propre features engineering.
 
 <img src="img/shapeimportance.png" width="516">
 
