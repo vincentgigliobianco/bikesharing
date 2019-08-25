@@ -5,8 +5,6 @@
 df_train_kaggle = read.csv(file = "/home/osboxes/proj/bikesharing/p04_model/data/train.csv",header = T,sep ="," ,stringsAsFactors = F)
 df_test_kaggle = read.csv(file = "/home/osboxes/proj/bikesharing/p04_model/data/test.csv",header = T,sep ="," ,stringsAsFactors = F)
 
-
-
 names(df_train_kaggle)
 
 # Données manquantes
